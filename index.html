@@ -114,8 +114,10 @@
     <section id="packages" class="bg-navy py-24 text-white">
         <div class="max-w-7xl mx-auto px-8">
             <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
-                <h2 class="text-5xl font-bold tracking-tight">Choose your project <span class="text-orange">level.</span></h2>
-                <p class="text-gray-400 max-w-sm">Clear deliverables. No surprise add-ons. Every tier includes a live walkthrough.</p>
+                <div>
+                    <h2 class="text-5xl font-bold tracking-tight mb-4">Choose your custom project <span class="text-orange">level.</span></h2>
+                    <p class="text-gray-400 max-w-xl">Have a unique idea or complex problem statement? Pick the development tier that fits your custom project scope. Every tier includes a live walkthrough.</p>
+                </div>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -125,9 +127,9 @@
                     <h3 class="text-xl font-bold mb-4">Minor Course Level Project</h3>
                     <div class="text-4xl font-bold mb-8">₹499</div>
                     <ul class="flex-1 flex flex-col gap-4 text-sm text-gray-300 mb-8">
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">✓</span> <span>Core execution script / single-module build</span></li>
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">✓</span> <span>Source code with inline comments</span></li>
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">✓</span> <span>Free 1-on-1 online session to explain every step</span></li>
+                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Core execution script / single-module build</span></li>
+                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Source code with inline comments</span></li>
+                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Free 1-on-1 online session to explain every step</span></li>
                     </ul>
                     <a href="#contact" class="font-bold text-white hover:text-orange transition flex items-center gap-2" onclick="document.getElementById('tier').value='Course Level (₹499)'">Get started</a>
                 </div>
@@ -138,10 +140,10 @@
                     <h3 class="text-xl font-bold mb-4">3rd Year Project</h3>
                     <div class="text-4xl font-bold mb-8">₹2,999</div>
                     <ul class="flex-1 flex flex-col gap-4 text-sm text-gray-300 mb-8">
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">✓</span> <span>Complete prototype / working application</span></li>
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">✓</span> <span>Full circuit schematic / block architecture</span></li>
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">✓</span> <span>Standard project documentation summary</span></li>
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">✓</span> <span>Free 1-on-1 online session to explain every step</span></li>
+                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Complete prototype / working application</span></li>
+                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Full circuit schematic / block architecture</span></li>
+                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Standard project documentation summary</span></li>
+                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Free 1-on-1 online session to explain every step</span></li>
                     </ul>
                     <a href="#contact" class="font-bold text-white hover:text-orange transition flex items-center gap-2" onclick="document.getElementById('tier').value='3rd Year (₹2,999)'">Get started</a>
                 </div>
@@ -153,10 +155,10 @@
                     <h3 class="text-xl font-bold mb-4">4th Year Project</h3>
                     <div class="text-4xl font-bold mb-8">₹6,999</div>
                     <ul class="flex-1 flex flex-col gap-4 text-sm text-white mb-8">
-                        <li class="flex items-start gap-3"><span class="text-navy font-bold">✓</span> <span>Advanced functional prototype or ML/Full-Stack system</span></li>
-                        <li class="flex items-start gap-3"><span class="text-navy font-bold">✓</span> <span>Complete IEEE formatted project report & PPT slides</span></li>
-                        <li class="flex items-start gap-3"><span class="text-navy font-bold">✓</span> <span>Multiple revision rounds based on guide feedback</span></li>
-                        <li class="flex items-start gap-3 font-bold"><span class="text-navy font-bold">✓</span> <span>Free 1-on-1 online session to explain every step & full viva prep call</span></li>
+                        <li class="flex items-start gap-3"><span class="text-navy font-bold">-</span> <span>Advanced functional prototype or ML/Full-Stack system</span></li>
+                        <li class="flex items-start gap-3"><span class="text-navy font-bold">-</span> <span>Complete IEEE formatted project report & PPT slides</span></li>
+                        <li class="flex items-start gap-3"><span class="text-navy font-bold">-</span> <span>Multiple revision rounds based on guide feedback</span></li>
+                        <li class="flex items-start gap-3 font-bold"><span class="text-navy font-bold">-</span> <span>Free 1-on-1 online session to explain every step & full viva prep call</span></li>
                     </ul>
                     <a href="#contact" class="font-bold text-white hover:text-gray-200 transition flex items-center gap-2" onclick="document.getElementById('tier').value='4th Year (₹6,999)'">Get started</a>
                 </div>
@@ -167,13 +169,19 @@
                     <h3 class="text-xl font-bold mb-4">Capstone Project</h3>
                     <div class="text-4xl font-bold mb-8">₹14,999</div>
                     <ul class="flex-1 flex flex-col gap-4 text-sm text-gray-300 mb-8">
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">✓</span> <span>Industrial-grade novel project / custom hardware assembly</span></li>
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">✓</span> <span>Research paper writing and formatting support</span></li>
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">✓</span> <span>Complete viva defense coaching and priority debugging</span></li>
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">✓</span> <span>Free 1-on-1 online session to explain every step</span></li>
+                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Industrial-grade novel project / custom hardware assembly</span></li>
+                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Research paper writing and formatting support</span></li>
+                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Complete viva defense coaching and priority debugging</span></li>
+                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Free 1-on-1 online session to explain every step</span></li>
                     </ul>
                     <a href="#contact" class="font-bold text-white hover:text-orange transition flex items-center gap-2" onclick="document.getElementById('tier').value='Capstone (₹14,999)'">Get started</a>
                 </div>
+            </div>
+
+            <!-- Pricing Disclaimer -->
+            <div class="mt-12 bg-cardbg border-l-4 border-orange p-6 rounded text-gray-300 text-sm">
+                <span class="text-orange font-bold tracking-wide uppercase">Service Fee Notice:</span> 
+                The pricing shown across all packages and catalog items is exclusively for our <strong>engineering service, coding, and development time</strong>. The cost of physical hardware components, sensors, fabrication, and delivery is <strong>not included</strong>. You may either supply the components yourself, or we can procure them for you at exact market cost.
             </div>
         </div>
     </section>
@@ -182,6 +190,11 @@
     <section id="catalog" class="py-24 bg-lightbg border-b border-gray-200">
         <div class="max-w-7xl mx-auto px-8">
             
+            <div class="mb-12">
+                <h2 class="text-4xl font-bold text-navy tracking-tight mb-4">Ready-to-Build <span class="text-orange">Catalog</span></h2>
+                <p class="text-gray-500 max-w-2xl leading-relaxed">The topics below represent our most common, already existing project models. You can select one of these standard, rapid-deployment builds, or use them as a baseline to estimate the cost of your own custom idea.</p>
+            </div>
+
             <!-- Mechanical Engineering -->
             <details class="bg-white border border-gray-200 rounded mb-4 cursor-pointer group" open>
                 <summary class="flex justify-between items-center p-6 bg-white outline-none">
@@ -194,7 +207,7 @@
                     </div>
                     <div class="flex items-center gap-4 text-sm text-gray-400">
                         <span>10 topics</span>
-                        <span class="arrow transition-transform">▼</span>
+                        <span class="arrow transition-transform font-bold text-orange">V</span>
                     </div>
                 </summary>
                 <div class="p-6 pt-0 border-t border-gray-100">
@@ -294,7 +307,7 @@
                     </div>
                     <div class="flex items-center gap-4 text-sm text-gray-400">
                         <span>10 topics</span>
-                        <span class="arrow transition-transform">▼</span>
+                        <span class="arrow transition-transform font-bold text-orange">V</span>
                     </div>
                 </summary>
                 <div class="p-6 pt-0 border-t border-gray-100">
@@ -386,7 +399,7 @@
                     </div>
                     <div class="flex items-center gap-4 text-sm text-gray-400">
                         <span>10 topics</span>
-                        <span class="arrow transition-transform">▼</span>
+                        <span class="arrow transition-transform font-bold text-orange">V</span>
                     </div>
                 </summary>
                 <div class="p-6 pt-0 border-t border-gray-100">
@@ -485,7 +498,7 @@
                     </div>
                     <div class="flex items-center gap-4 text-sm text-gray-400">
                         <span>10 topics</span>
-                        <span class="arrow transition-transform">▼</span>
+                        <span class="arrow transition-transform font-bold text-orange">V</span>
                     </div>
                 </summary>
                 <div class="p-6 pt-0 border-t border-gray-100">
@@ -583,7 +596,7 @@
                     </div>
                     <div class="flex items-center gap-4 text-sm text-gray-400">
                         <span>10 topics</span>
-                        <span class="arrow transition-transform">▼</span>
+                        <span class="arrow transition-transform font-bold text-orange">V</span>
                     </div>
                 </summary>
                 <div class="p-6 pt-0 border-t border-gray-100">
@@ -681,7 +694,7 @@
                     </div>
                     <div class="flex items-center gap-4 text-sm text-gray-400">
                         <span>10 topics</span>
-                        <span class="arrow transition-transform">▼</span>
+                        <span class="arrow transition-transform font-bold text-orange">V</span>
                     </div>
                 </summary>
                 <div class="p-6 pt-0 border-t border-gray-100">
@@ -779,7 +792,7 @@
                     </div>
                     <div class="flex items-center gap-4 text-sm text-gray-400">
                         <span>10 topics</span>
-                        <span class="arrow transition-transform">▼</span>
+                        <span class="arrow transition-transform font-bold text-orange">V</span>
                     </div>
                 </summary>
                 <div class="p-6 pt-0 border-t border-gray-100">
