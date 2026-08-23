@@ -115,71 +115,59 @@
         <div class="max-w-7xl mx-auto px-8">
             <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
                 <div>
-                    <h2 class="text-5xl font-bold tracking-tight mb-4">Choose your <span class="text-orange">project level.</span></h2>
-                    <!-- REQUIREMENT 1: Mention it is for ANY custom project -->
+                    <h2 class="text-5xl font-bold tracking-tight mb-4">Choose your custom project <span class="text-orange">level.</span></h2>
                     <p class="text-gray-300 max-w-2xl text-lg">These tiers are designed for <strong>any custom project</strong> a client wants us to build. Just tell us your unique idea, and pick the level that fits your custom requirements.</p>
                 </div>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Tier 1 -->
                 <div class="bg-cardbg border border-gray-700 p-8 rounded flex flex-col">
                     <span class="text-orange text-xs mb-6">01</span>
-                    <h3 class="text-xl font-bold mb-4">Minor Course Level Project</h3>
+                    <h3 class="text-2xl font-bold mb-3">Minor Course Level Project</h3>
+                    <p class="text-sm text-gray-400 mb-6 h-10">Designed for any basic level coursework or foundational module requirement.</p>
                     <div class="text-4xl font-bold mb-8">₹499</div>
-                    <ul class="flex-1 flex flex-col gap-4 text-sm text-gray-300 mb-8">
+                    <ul class="flex-1 flex flex-col gap-4 text-sm text-gray-300 mb-8 border-t border-gray-700 pt-6">
                         <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Core execution script / single-module build</span></li>
                         <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Source code with inline comments</span></li>
                         <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Free 1-on-1 online session to explain every step</span></li>
                     </ul>
-                    <a href="#contact" class="font-bold text-white hover:text-orange transition flex items-center gap-2" onclick="document.getElementById('tier').value='Course Level (₹499)'">Get started</a>
+                    <a href="#contact" class="font-bold text-white hover:text-orange transition flex items-center gap-2" onclick="document.getElementById('tier').value='Minor Course Level (₹499)'">Get started</a>
                 </div>
 
                 <!-- Tier 2 -->
                 <div class="bg-cardbg border border-gray-700 p-8 rounded flex flex-col">
                     <span class="text-orange text-xs mb-6">02</span>
-                    <h3 class="text-xl font-bold mb-4">3rd Year Project</h3>
-                    <div class="text-4xl font-bold mb-8">₹2,999</div>
-                    <ul class="flex-1 flex flex-col gap-4 text-sm text-gray-300 mb-8">
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Complete prototype / working application</span></li>
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Full circuit schematic / block architecture</span></li>
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Standard project documentation summary</span></li>
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Free 1-on-1 online session to explain every step</span></li>
+                    <h3 class="text-2xl font-bold mb-3">Pre-Final & Final Year Projects</h3>
+                    <p class="text-sm text-gray-400 mb-6 h-10">The definitive college year main projects with all essential supporting academic documents delivered.</p>
+                    <div class="text-4xl font-bold mb-8">₹5,999</div>
+                    <ul class="flex-1 flex flex-col gap-4 text-sm text-gray-300 mb-8 border-t border-gray-700 pt-6">
+                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Complete functional prototype / full-stack working application</span></li>
+                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Full IEEE formatted project report & PPT slides</span></li>
+                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Multiple revision rounds based on guide feedback</span></li>
+                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Free 1-on-1 online session to explain every step & full viva prep call</span></li>
                     </ul>
-                    <a href="#contact" class="font-bold text-white hover:text-orange transition flex items-center gap-2" onclick="document.getElementById('tier').value='3rd Year (₹2,999)'">Get started</a>
+                    <a href="#contact" class="font-bold text-white hover:text-orange transition flex items-center gap-2" onclick="document.getElementById('tier').value='Pre-Final & Final Year (₹5,999)'">Get started</a>
                 </div>
 
                 <!-- Tier 3 (Highlight) -->
                 <div class="bg-orange border border-orange p-8 rounded flex flex-col relative transform md:-translate-y-4 shadow-2xl">
-                    <div class="absolute -top-4 right-8 bg-white text-navy text-xs font-bold uppercase tracking-widest px-3 py-1 rounded">The Best Deal</div>
+                    <div class="absolute -top-4 right-8 bg-white text-navy text-xs font-bold uppercase tracking-widest px-3 py-1 rounded">Premier Tier</div>
                     <span class="text-white text-xs mb-6 opacity-80">03</span>
-                    <h3 class="text-xl font-bold mb-4">4th Year Project</h3>
-                    <div class="text-4xl font-bold mb-8">₹6,999</div>
-                    <ul class="flex-1 flex flex-col gap-4 text-sm text-white mb-8">
-                        <li class="flex items-start gap-3"><span class="text-navy font-bold">-</span> <span>Advanced functional prototype or ML/Full-Stack system</span></li>
-                        <li class="flex items-start gap-3"><span class="text-navy font-bold">-</span> <span>Complete IEEE formatted project report & PPT slides</span></li>
-                        <li class="flex items-start gap-3"><span class="text-navy font-bold">-</span> <span>Multiple revision rounds based on guide feedback</span></li>
-                        <li class="flex items-start gap-3 font-bold"><span class="text-navy font-bold">-</span> <span>Free 1-on-1 online session to explain every step & full viva prep call</span></li>
+                    <h3 class="text-2xl font-bold mb-3">Premier Capstone Project</h3>
+                    <p class="text-sm text-white/90 mb-6 font-medium leading-relaxed">This is our premier development tier, architected to reflect exceptional technical value on your resume. We engage in deep consultation to ensure your project commands industry attention. You retain complete creative freedom to select your own custom topic.</p>
+                    <div class="text-4xl font-bold mb-8">₹8,999</div>
+                    <ul class="flex-1 flex flex-col gap-4 text-sm text-white mb-8 border-t border-white/20 pt-6">
+                        <li class="flex items-start gap-3"><span class="text-navy font-bold">-</span> <span>Industrial-grade novel project / custom hardware assembly</span></li>
+                        <li class="flex items-start gap-3"><span class="text-navy font-bold">-</span> <span>Research paper writing and formatting support</span></li>
+                        <li class="flex items-start gap-3"><span class="text-navy font-bold">-</span> <span>Complete viva defense coaching and priority debugging</span></li>
+                        <li class="flex items-start gap-3 font-bold"><span class="text-navy font-bold">-</span> <span>Free 1-on-1 online session to explain every step</span></li>
                     </ul>
-                    <a href="#contact" class="font-bold text-white hover:text-gray-200 transition flex items-center gap-2" onclick="document.getElementById('tier').value='4th Year (₹6,999)'">Get started</a>
-                </div>
-
-                <!-- Tier 4 -->
-                <div class="bg-cardbg border border-gray-700 p-8 rounded flex flex-col">
-                    <span class="text-orange text-xs mb-6">04</span>
-                    <h3 class="text-xl font-bold mb-4">Capstone Project</h3>
-                    <div class="text-4xl font-bold mb-8">₹14,999</div>
-                    <ul class="flex-1 flex flex-col gap-4 text-sm text-gray-300 mb-8">
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Industrial-grade novel project / custom hardware assembly</span></li>
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Research paper writing and formatting support</span></li>
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Complete viva defense coaching and priority debugging</span></li>
-                        <li class="flex items-start gap-3"><span class="text-orange font-bold">-</span> <span>Free 1-on-1 online session to explain every step</span></li>
-                    </ul>
-                    <a href="#contact" class="font-bold text-white hover:text-orange transition flex items-center gap-2" onclick="document.getElementById('tier').value='Capstone (₹14,999)'">Get started</a>
+                    <a href="#contact" class="font-bold text-white hover:text-gray-200 transition flex items-center gap-2" onclick="document.getElementById('tier').value='Premier Capstone (₹8,999)'">Get started</a>
                 </div>
             </div>
 
-            <!-- REQUIREMENT 3: Component & Delivery Pricing Disclaimer -->
+            <!-- Component & Delivery Pricing Disclaimer -->
             <div class="mt-12 bg-[#FFF4ED] border border-orange p-8 rounded text-navy text-base leading-relaxed">
                 <span class="text-orange font-bold tracking-widest uppercase text-sm block mb-3">Important Pricing Note</span> 
                 The money pricing listed in the packages above and in the catalog below is <strong>ONLY for the service of making the project</strong>. Other extras like delivery, physical components, and hardware cost extra. <br><br>
@@ -194,7 +182,6 @@
         <div class="max-w-7xl mx-auto px-8">
             
             <div class="mb-12">
-                <!-- REQUIREMENT 2: Mention catalog is most common and already existing -->
                 <h2 class="text-4xl font-bold text-navy tracking-tight mb-4">Most Common <span class="text-orange">Projects</span></h2>
                 <p class="text-gray-500 max-w-2xl leading-relaxed text-lg">The topics listed below are the most common projects and are already existing models we have built. You can easily select one of these standard builds, or use them as a baseline to get an idea of our pricing.</p>
             </div>
@@ -944,10 +931,9 @@
                             <label class="block text-sm font-bold text-navy mb-2">Budget tier</label>
                             <select id="tier" required class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:border-orange bg-white">
                                 <option value="">Select a tier</option>
-                                <option value="Minor (₹499)">Minor Course Level (₹499)</option>
-                                <option value="3rd Year (₹2,999)">3rd Year Project (₹2,999)</option>
-                                <option value="4th Year (₹6,999)">4th Year Project (₹6,999)</option>
-                                <option value="Capstone (₹14,999)">Capstone Project (₹14,999)</option>
+                                <option value="Minor Course Level (₹499)">Minor Course Level (₹499)</option>
+                                <option value="Pre-Final & Final Year (₹5,999)">Pre-Final & Final Year (₹5,999)</option>
+                                <option value="Premier Capstone (₹8,999)">Premier Capstone (₹8,999)</option>
                                 <option value="Custom">Custom Quote</option>
                             </select>
                         </div>
