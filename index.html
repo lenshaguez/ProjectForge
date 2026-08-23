@@ -40,8 +40,8 @@
             <span class="font-bold text-xl text-navy tracking-tight">projectforge</span>
         </div>
         <div class="hidden md:flex items-center gap-8 font-medium text-sm text-navy">
-            <a href="#catalog" class="hover:text-orange transition">Catalog</a>
             <a href="#packages" class="hover:text-orange transition">Packages</a>
+            <a href="#catalog" class="hover:text-orange transition">Catalog</a>
             <a href="#contact" class="hover:text-orange transition">How to start</a>
             <a href="#contact" class="bg-navy text-white px-6 py-3 rounded hover:bg-gray-800 transition flex items-center gap-2">
                 Get a quote
@@ -115,8 +115,9 @@
         <div class="max-w-7xl mx-auto px-8">
             <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
                 <div>
-                    <h2 class="text-5xl font-bold tracking-tight mb-4">Choose your custom project <span class="text-orange">level.</span></h2>
-                    <p class="text-gray-400 max-w-xl">Have a unique idea or complex problem statement? Pick the development tier that fits your custom project scope. Every tier includes a live walkthrough.</p>
+                    <h2 class="text-5xl font-bold tracking-tight mb-4">Choose your <span class="text-orange">project level.</span></h2>
+                    <!-- REQUIREMENT 1: Mention it is for ANY custom project -->
+                    <p class="text-gray-300 max-w-2xl text-lg">These tiers are designed for <strong>any custom project</strong> a client wants us to build. Just tell us your unique idea, and pick the level that fits your custom requirements.</p>
                 </div>
             </div>
 
@@ -178,11 +179,13 @@
                 </div>
             </div>
 
-            <!-- Pricing Disclaimer -->
-            <div class="mt-12 bg-cardbg border-l-4 border-orange p-6 rounded text-gray-300 text-sm">
-                <span class="text-orange font-bold tracking-wide uppercase">Service Fee Notice:</span> 
-                The pricing shown across all packages and catalog items is exclusively for our <strong>engineering service, coding, and development time</strong>. The cost of physical hardware components, sensors, fabrication, and delivery is <strong>not included</strong>. You may either supply the components yourself, or we can procure them for you at exact market cost.
+            <!-- REQUIREMENT 3: Component & Delivery Pricing Disclaimer -->
+            <div class="mt-12 bg-[#FFF4ED] border border-orange p-8 rounded text-navy text-base leading-relaxed">
+                <span class="text-orange font-bold tracking-widest uppercase text-sm block mb-3">Important Pricing Note</span> 
+                The money pricing listed in the packages above and in the catalog below is <strong>ONLY for the service of making the project</strong>. Other extras like delivery, physical components, and hardware cost extra. <br><br>
+                <strong>Hardware Options:</strong> If the client has components, they can give them to us to use. Or else, the client can pay money for the components to us, and we will procure them (either one).
             </div>
+
         </div>
     </section>
 
@@ -191,8 +194,9 @@
         <div class="max-w-7xl mx-auto px-8">
             
             <div class="mb-12">
-                <h2 class="text-4xl font-bold text-navy tracking-tight mb-4">Ready-to-Build <span class="text-orange">Catalog</span></h2>
-                <p class="text-gray-500 max-w-2xl leading-relaxed">The topics below represent our most common, already existing project models. You can select one of these standard, rapid-deployment builds, or use them as a baseline to estimate the cost of your own custom idea.</p>
+                <!-- REQUIREMENT 2: Mention catalog is most common and already existing -->
+                <h2 class="text-4xl font-bold text-navy tracking-tight mb-4">Most Common <span class="text-orange">Projects</span></h2>
+                <p class="text-gray-500 max-w-2xl leading-relaxed text-lg">The topics listed below are the most common projects and are already existing models we have built. You can easily select one of these standard builds, or use them as a baseline to get an idea of our pricing.</p>
             </div>
 
             <!-- Mechanical Engineering -->
